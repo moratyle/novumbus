@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+}
+
+.galaxy-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.galaxy-container h3 {
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  width: 120px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.galaxy-container h4 {
+  color: white;
+}
+
+.planets-nav {
+  margin-top: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.planets-nav h3 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.planets-nav .active {
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.planet-descriptions {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+.planet-descriptions h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.planet-descriptions p {
+  line-height: 30px;
+}
+
+.planet-descriptions .facts {
+  margin-top: 30px;
+  color: white;
+}
+
+.planet-descriptions .facts h3 {
+  text-align-last: left;
+  padding: 5px;
+}
+
+.planet-descriptions .facts h5 {
+  margin-top: 20px;
+  text-align: left;
+  padding: 5px 0px;
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.planet-descriptions .facts h5 span {
+  border: 2px solid rgba(255, 255, 255, 0.582);
+  border-radius: 40px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.planet-descriptions .facts h5 span:hover {
+  background-color: rgba(255, 255, 255, 0.582);
+  color: white;
+}
+/*# sourceMappingURL=destinations.css.map */

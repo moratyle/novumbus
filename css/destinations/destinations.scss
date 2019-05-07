@@ -1,0 +1,99 @@
+$space: 'Space Mono',
+monospace;
+$blue: #1B3059;
+$lightBlue: #A3D3DC;
+$grey: #5A5B74;
+$red: #BD3903;
+$black: #0B0B0D;
+
+body {
+    background-color: black;
+}
+
+.galaxy-container {
+    text-align: center;
+    margin-top: 30px;
+
+    h3 {
+        margin: auto;
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        width: 120px;
+        padding: 10px 15px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    h4 {
+        color: white;
+    }
+}
+
+.planets-nav {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .active {
+        color: rgba(255, 255, 255, 0.486);
+    }
+}
+
+
+
+.planet-descriptions {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    p {
+        line-height: 30px;
+    }
+
+    .facts {
+        margin-top: 30px;
+        color: white;
+
+        h3 {
+            text-align-last: left;
+            padding: 5px;
+        }
+
+        h5 {
+            margin-top: 20px;
+            text-align: left;
+            padding: 5px 0px;
+            color: rgba(255, 255, 255, 0.582);
+
+            span {
+                border: 2px solid rgba(255, 255, 255, 0.582);
+                ;
+                border-radius: 40px;
+                margin-left: 5px;
+                padding: 5px 10px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.582);
+                    color: white;
+                }
+            }
+        }
+
+    }
+}

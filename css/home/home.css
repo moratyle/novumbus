@@ -1,0 +1,142 @@
+.types {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: light;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.types h3 {
+  background-color: #5A5B74;
+  color: black;
+  padding: 10px 15px 5px 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.types h3:first-child {
+  background-color: white;
+}
+
+.search-container {
+  margin: auto;
+  max-width: 85%;
+  background-color: white;
+  height: 400px;
+  padding: 10px;
+}
+
+.search-container .search-grid {
+  margin-top: 10px;
+  /* grid */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.search-container .search-grid label {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.search-container .search-grid input:first-child[type=text] {
+  font-size: 20px;
+  padding: 5px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 70%;
+}
+
+.search-container .search-grid input:nth-child(2)[type=text] {
+  font-size: 20px;
+  padding: 5px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+}
+
+.search-container .search-grid .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search-container .search-grid .circles {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.search-container .search-grid .circles .circle {
+  border: 3px solid #5A5B74;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.search-container .search-grid .circles .circle:hover {
+  background-color: #5A5B74;
+  color: white;
+  cursor: pointer;
+}
+
+.search-container .search-grid h2 {
+  text-align: center;
+  background-color: #BD3903;
+  border-radius: 50px;
+  margin: auto;
+  width: 180px;
+  padding: 10px;
+  color: white;
+}
+
+.basic-info {
+  margin: auto;
+  width: 85%;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.basic-info section {
+  margin-top: 30px;
+}
+
+.basic-info section .push {
+  margin-top: 20px;
+}
+
+.basic-info section h2 {
+  font-size: 30px;
+}
+
+.basic-info section h3 {
+  font-size: 20px;
+}
+
+.basic-info section h5 {
+  color: rgba(255, 255, 255, 0.657);
+}
+
+.basic-info section p {
+  line-height: 30px;
+}
+/*# sourceMappingURL=home.css.map */

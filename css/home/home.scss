@@ -1,0 +1,129 @@
+$space: 'Space Mono',
+monospace;
+$blue: #1B3059;
+$lightBlue: #A3D3DC;
+$grey: #5A5B74;
+$red: #BD3903;
+$black: #0B0B0D;
+
+.types {
+    margin-top: 20px;
+    display: flex;
+    font-size: 15px;
+    font-weight: light;
+    justify-content: space-evenly;
+
+    h3 {
+        background-color: $grey;
+        color: black;
+        padding: 10px 15px 5px 15px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    h3:first-child {
+        background-color: white;
+    }
+}
+
+.search-container {
+    margin: auto;
+    max-width: 85%;
+    background-color: white;
+    height: 400px;
+    padding: 10px;
+
+    .search-grid {
+        margin-top: 10px;
+        /* grid */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+
+        label {
+            font-size: 20px;
+            padding: 15px;
+            margin-top: 5px;
+        }
+
+        input:first-child[type=text] {
+            font-size: 20px;
+            padding: 5px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            width: 70%;
+        }
+
+        input:nth-child(2)[type=text] {
+            font-size: 20px;
+            padding: 5px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            width: 30%;
+        }
+
+        .inputs {
+            display: flex;
+        }
+
+        .circles {
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+
+            .circle {
+                border: 3px solid $grey;
+                padding: 10px 15px;
+                border-radius: 30px;
+
+                &:hover {
+                    background-color: $grey;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        h2 {
+            text-align: center;
+            background-color: $red;
+            border-radius: 50px;
+            margin: auto;
+            width: 180px;
+            padding: 10px;
+            color: white;
+        }
+    }
+}
+
+.basic-info {
+    margin: auto;
+    width: 85%;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    section{
+        margin-top: 30px;
+
+        .push{
+            margin-top: 20px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        h5{
+            color: rgba(255, 255, 255, 0.657);
+        }
+        p{
+            line-height: 30px;
+        }
+    }
+   
+
+}
