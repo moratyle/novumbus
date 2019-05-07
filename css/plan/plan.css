@@ -10,6 +10,10 @@
   margin: auto;
 }
 
+.seats-container a {
+  color: black;
+}
+
 .seats-container h1 {
   margin-top: 30px;
   color: white;

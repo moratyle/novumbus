@@ -1,0 +1,38 @@
+.checkout-container {
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+  max-width: 85%;
+  text-align: center;
+}
+
+.checkout-container h3 {
+  margin-top: 10px;
+}
+
+.checkout-form {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+}
+
+.checkout-form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.checkout-form h2 {
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #BD3903;
+  width: 100px;
+  padding: 10px;
+  border-radius: 40px;
+}
+/*# sourceMappingURL=checkout.css.map */

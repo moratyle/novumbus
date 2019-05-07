@@ -1,0 +1,45 @@
+$space: 'Space Mono',
+monospace;
+$blue: #1B3059;
+$lightBlue: #A3D3DC;
+$grey: #5A5B74;
+$red: #BD3903;
+$black: #0B0B0D;
+
+.checkout-container{
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    max-width: 85%;
+    text-align: center;
+
+    h3{
+        margin-top: 10px;
+    }
+}
+
+.checkout-form {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        cursor: pointer;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        background-color: $red;
+        width: 100px;
+        padding: 10px;
+        border-radius: 40px;
+
+    }
+}
